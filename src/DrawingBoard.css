@@ -1,0 +1,62 @@
+/* Стилі для DrawingBoard */
+.drawing-board {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+  }
+  
+  .drawing-board button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+    cursor: pointer;
+  }
+  
+  .drawing-board select {
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .drawing-board .size-input {
+    margin-top: 10px;
+  }
+  
+  /* Стилі для Stage (полотно) */
+  .stage-container {
+    border: 1px solid #ccc;
+    margin-top: 20px;
+  }
+  
+  /* Стилі для інструментів малювання */
+  .drawing-tools {
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+    margin-top: 20px;
+  }
+  
+  .drawing-tools button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  /* Стилі для текстового блоку */
+  .text-block {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .text-block.active {
+    border: 2px solid #007bff;
+  }
+  
